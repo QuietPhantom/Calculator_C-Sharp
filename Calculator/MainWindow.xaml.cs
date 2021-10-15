@@ -258,5 +258,16 @@ namespace Calculator
         {
             Application.Current.Shutdown();
         }
+
+        private void Button_zap_Click(object sender, RoutedEventArgs e)
+        {
+            Clear();
+            if (zap == false && chisla >= 1)
+            {
+                textBox.Text += ',';
+                zap = true;
+                chisla += 1;
+            }
+        }
     }
 }
