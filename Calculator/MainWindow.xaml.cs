@@ -258,5 +258,40 @@ namespace Calculator
         {
             Application.Current.Shutdown();
         }
+
+        private void Button_ce_Click(object sender, RoutedEventArgs e)
+        {
+            Clear();
+
+            lenght = textBox.Text.Length;
+            string text = textBox.Text;
+            textBox.Clear();
+            for (int i = 0; i < lenght - 1; i++)
+            {
+                textBox.Text += text[i];
+            }
+
+            try
+            {
+                if (text[lenght - 1] == ',')
+                {
+                    zap = false;
+                }
+            }
+            catch
+            {
+
+            }
+
+            if (lenght == 1 && text[lenght - 1] == '0')
+            {
+                nul = true;
+            }
+
+            if (chisla != 0)
+            {
+                chisla -= 1;
+            }
+        }
     }
 }
