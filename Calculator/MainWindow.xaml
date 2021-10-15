@@ -30,5 +30,6 @@
         <Button x:Name="Button_close" Content="X" HorizontalAlignment="Left" Margin="410,0,0,0" VerticalAlignment="Top" Width="30" Height="30"  FontSize="16" FontWeight="Bold" BorderThickness="0" Click="Button_close_Click"/>
         <Label x:Name="Label_title" Content="Калькулятор" HorizontalAlignment="Left" Margin="0,-1,0,0" VerticalAlignment="Top" Width="410" FontSize="16" MouseLeftButtonDown="Drag"/>
         <Button x:Name="Button_ce" Content="CE" HorizontalAlignment="Left" Margin="350,178,0,0" VerticalAlignment="Top" Width="80" Height= "80" FontSize="24" FontWeight="Bold" BorderThickness="2" Click="Button_ce_Click"/>
+        <Button x:Name="Button_zap" Content="," HorizontalAlignment="Left" Margin="180,348,0,0" VerticalAlignment="Top" Width="80" Height= "80" FontSize="24" FontWeight="Bold" BorderThickness="2" Click="Button_zap_Click"/>
     </Grid>
 </Window>
