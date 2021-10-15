@@ -259,7 +259,6 @@ namespace Calculator
             Application.Current.Shutdown();
         }
 
-<<<<<<< HEAD
         private void Button_ce_Click(object sender, RoutedEventArgs e)
         {
             Clear();
@@ -294,7 +293,7 @@ namespace Calculator
                 chisla -= 1;
 			}
 		}
-=======
+		
         private void Button_zap_Click(object sender, RoutedEventArgs e)
         {
             Clear();
@@ -303,7 +302,6 @@ namespace Calculator
                 textBox.Text += ',';
                 zap = true;
                 chisla += 1;
->>>>>>> feature/zap
             }
         }
     }
