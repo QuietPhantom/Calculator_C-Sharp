@@ -258,5 +258,20 @@ namespace Calculator
         {
             Application.Current.Shutdown();
         }
+
+        private void Button_change_Click(object sender, RoutedEventArgs e)
+        {
+            Clear();
+            if (znak == true)
+            {
+                textBox.Text = "-" + textBox.Text;
+                znak = false;
+            }
+            else if (znak == false)
+            {
+                textBox.Text = textBox.Text.Replace("-", "");
+                znak = true;
+            }
+        }
     }
 }

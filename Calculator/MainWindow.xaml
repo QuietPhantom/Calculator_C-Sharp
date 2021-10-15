@@ -29,5 +29,6 @@
         <Label x:Name="label" Content="" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.421,-0.038" FontSize="36"/>
         <Button x:Name="Button_close" Content="X" HorizontalAlignment="Left" Margin="410,0,0,0" VerticalAlignment="Top" Width="30" Height="30"  FontSize="16" FontWeight="Bold" BorderThickness="0" Click="Button_close_Click"/>
         <Label x:Name="Label_title" Content="Калькулятор" HorizontalAlignment="Left" Margin="0,-1,0,0" VerticalAlignment="Top" Width="410" FontSize="16" MouseLeftButtonDown="Drag"/>
+        <Button x:Name="Button_change" Content="+/-" HorizontalAlignment="Left" Margin="10,348,0,0" VerticalAlignment="Top" Width="80" Height="80" FontSize="24" FontWeight="Bold" BorderThickness="2" Click="Button_change_Click"/>
     </Grid>
 </Window>
